@@ -1,0 +1,43 @@
+body {
+  background-color:#bc8f8f;
+  color: black;
+}
+h1 {
+  font-size: 25px;
+  font-family: "Montserrat", sans-serif;
+}
+.stopwatch {
+  display: grid;
+   justify-items: center;
+   grid-row-gap: 15px;
+   width: 20%;
+   padding-top: 10px;
+}
+
+
+.time {
+  font-family: "Robot Mono", monospace;
+  font-weight:20;
+  font-size: 30px;
+}
+
+.controls {
+  display: flex;
+  justify-content: space-between;
+
+width: 190px;
+}
+
+.button{
+  cursor: pointer;
+  background: transparent;
+  padding: 1;
+  border: none;
+  margin: 0;
+  outline: none;
+}
+
+.button id {
+  background: none;
+
+}
